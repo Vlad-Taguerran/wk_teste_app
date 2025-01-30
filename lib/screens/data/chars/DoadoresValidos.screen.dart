@@ -36,7 +36,7 @@ class _DoadoresValidosScreenState extends State<DoadoresValidosScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarWidget(title: "title"),
+      appBar: AppBarWidget(title: "Doadores Validos"),
       body: FutureBuilder<List<Doadores>>(
           future: list,
           builder: (context, snapshot) {
